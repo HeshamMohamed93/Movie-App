@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/hesham/Downloads/FiMovie/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/hesham/Downloads/FiMovie/app/build/intermediates/pre-dexed/debug/classes-2a0e2d908c5aac651f620ed78b0ffed7e5141548.jar" />
+    </item>
+    <item
+        jar="/home/hesham/Downloads/FiMovie/app/libs/picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/home/hesham/Downloads/FiMovie/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-b378e1e09ac29eae20f0ace74f71a1eb638691b8.jar" />
+    </item>
+    <item
+        jar="/home/hesham/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/hesham/Downloads/FiMovie/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-514e9e0898d9a5685f54191ee60edee86be50ad0.jar" />
+    </item>
+    <item
+        jar="/home/hesham/Downloads/FiMovie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/hesham/Downloads/FiMovie/app/build/intermediates/pre-dexed/debug/classes-3585c6dd7a844daf568026cbeb5c94f375c468e3.jar" />
+    </item>
+    <item
+        jar="/home/hesham/Downloads/FiMovie/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/hesham/Downloads/FiMovie/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-aab899b7d8fbefb791bfb6621c3183e2f48c2577.jar" />
+    </item>
+
+</items>

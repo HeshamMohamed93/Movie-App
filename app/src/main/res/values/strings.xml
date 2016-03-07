@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FiMovie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_popular">Most Popular</string>
+    <string name="action_rated">Highest Rate</string>
+    <string name="action_favourit">Favourit</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_videos">videos</string>
+</resources>

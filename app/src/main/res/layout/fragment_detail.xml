@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/container"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--android:layout_weight="1.5"-->
+
+
+        <ImageView
+
+            android:id="@+id/image1"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="top|center_vertical"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:numStars="10"
+            android:isIndicator="true"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/date"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/overview"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Favourit"
+            android:background="@android:drawable/btn_star"
+            android:onClick="onClick"
+            android:id="@+id/btn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick1"
+            android:id="@+id/btn2"
+            android:text="Videos"
+            android:background="@android:drawable/ic_media_play"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn3"
+            android:text="Reviews"
+            android:background="@android:drawable/sym_action_chat" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"/>
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!--android:layout_weight="1" >-->
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list"></ListView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reviews"/>
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list1"></ListView>
+
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>
